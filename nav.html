@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NAVBAR</title>
+    <script
+            src="https://kit.fontawesome.com/9eb162ac0d.js"
+            crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="nav.css" />
+    <script src="nav.js" defer></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js" defer></script>
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="navbar__logo">
+        <img src="멋사로고.png" alt="로고" style="width: 50px">
+        <a href="#">LikeLion</a>
+    </div>
+    <ul class="navbar__menu">
+        <li class="navbar__menu__item">Home</li>
+        <li class="navbar__menu__item">About</li>
+        <li class="navbar__menu__item">Works</li>
+        <li class="navbar__menu__item">Contact</li>
+    </ul>
+    <button class="navbar__toggle-btn">
+        <i class="fas fa-bars"></i>
+    </button>
+</nav>
+<div id="btn">
+    <button onclick="getWord()">
+        <h1>create word</h1>
+    </button>
+</div>
+<div id="word">
+    <div id="word1"></div>
+    <div id="word2"></div>
+    <div id="word3"></div>
+</div>
+
+</body>
+</html>
